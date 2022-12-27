@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  nav {
+    display:flex ;
+    justify-content:space-between;
+    align-items:center ;
+    padding: 10px;
+  }
+  .logo img {
+    width: 120px;
+    height: auto;
+  }
+  
+  .center-nav {
+    display:flex;
+    
+  }
+  .search {
+    display: flex;
+    width:auto;
+  }
+  .search input {
+    min-width: 500px;
+    HEIGHT:50PX;
+    padding: 10px 20px;
+    border: 1px solid gray;
+  }
+  .search button {
+    border: 1px solid gray;
+    padding: 10px 15px;
+    height: 50px;
+    width: auto;
+  }
+  
+  .mic {
+    padding: 15px;
+    border-radius: 50%;
+    background: rgb(240, 239, 239);
+    display: grid;
+    place-items:center;
+    margin-left: 15px;
+  }
+  .mic img {
+    width: 22px;
+  }
+  
+  .side-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-right: 50px;
+  }
+  
+  .tags {
+    display: flex;
+    padding: 10px 25px;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+  }
+  .tag {
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+  }
+  .dark {
+    background: #000;
+    color: white;
+  }
+  .light {
+    background: rgb(238, 238, 238);
+    color: rgb(67, 67, 67);
+  }
+  
+  .container {
+    display:flex;
+
+
+  }
+  
+  aside {
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .side-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .side-icons img {
+    width:35px;
+  }
+  
+  .side-icons p {
+    font-size: 11px;
+    margin-top: -5px;
+    font-weight: bold;
+  }
+  .bars {
+    margin-top: 20px;
+  }
+  .main-container {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  main {
+    min-height: 100vh;
+    background: rgb(240, 238, 238);
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  .card {
+    padding: 10px;
+    max-width: 320px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar-content {
+    padding-top: 10px;
+    display:flex;
+    gap: 5px;
+  }
+  .card h3 {
+    font-size: 15px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .channel-name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .content-status {
+    display: flex;
+    font-size: 14px;
+    gap: 15px;
+  }
+  
